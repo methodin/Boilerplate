@@ -1,0 +1,11 @@
+php_value auto_prepend_file /var/www/base/lib/bootstrap.php
+
+RewriteEngine on
+RewriteBase /
+
+RewriteRule ^$ index.php?url=/    [NC,L,QSA]
+
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+
+RewriteRule ^(.*)$ index.php?url=/$1    [NC,L,QSA]
