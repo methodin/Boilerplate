@@ -1,0 +1,21 @@
+[submodule "lib/Symfony/Routing"]
+	path = lib/Symfony/Routing
+	url = git://github.com/symfony/Routing.git
+[submodule "lib/Symfony/HttpFoundation"]
+	path = lib/Symfony/HttpFoundation
+	url = git://github.com/symfony/HttpFoundation.git
+[submodule "lib/Symfony/ClassLoader"]
+	path = lib/Symfony/ClassLoader
+	url = git://github.com/symfony/ClassLoader.git
+[submodule "lib/Twig"]
+	path = lib/Twig
+	url = git://github.com/fabpot/Twig.git
+[submodule "lib/Symfony/Component/ClassLoader"]
+	path = lib/Symfony/Component/ClassLoader
+	url = git://github.com/symfony/ClassLoader.git
+[submodule "lib/Symfony/Component/HttpFoundation"]
+	path = lib/Symfony/Component/HttpFoundation
+	url = git://github.com/symfony/HttpFoundation.git
+[submodule "lib/Symfony/Component/Routing"]
+	path = lib/Symfony/Component/Routing
+	url = git://github.com/symfony/Routing.git
